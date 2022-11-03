@@ -1,0 +1,50 @@
+body {
+    background-color: white(160, 160, 157);
+}
+
+.tituloRegistro{
+    font-size: 50px;
+    font-family:arial;
+    text-align:center;
+    margin:auto;
+    color:red;
+}
+
+
+
+h2{
+    font-size: 26px;
+    font-family:arial;
+    text-align:right;
+    margin:auto
+    
+}  
+p{
+    font-size: 20px;
+    font-family: arial;
+    width: 70%;
+    margin:auto
+    
+    
+}
+img{
+    height: 350px;
+    margin:auto;
+}
+.fcc-btn{
+    font-size: 14px;
+    border-bottom: 10px;
+    border-radius: 15px;
+    padding:7px; 
+    text-transform: uppercase;
+    margin-left: 18px;
+    background-color: silver;
+    color:white
+
+}
+
+
+
+  
+
+   
