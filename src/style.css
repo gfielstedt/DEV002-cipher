@@ -1,24 +1,34 @@
 body {
-    background-color: white(160, 160, 157);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
 }
-
-.tituloRegistro{
+h1{
     font-size: 50px;
     font-family:arial;
     text-align:center;
     margin:auto;
-    color:red;
+    color: red;
 }
-
-
-
 h2{
     font-size: 26px;
     font-family:arial;
-    text-align:right;
-    margin:auto
-    
+    text-align:center;
+    text-decoration: underline;     
 }  
+.registro{
+    font-size: 26px;
+    font-family:arial;
+    text-align:left;
+    text-decoration: underline; 
+}
+.slogan{
+    font: size 15px; 
+    font-family: lucida sans;
+    font-style: initial;
+    color:black ;
+}
 p{
     font-size: 20px;
     font-family: arial;
@@ -31,16 +41,40 @@ img{
     height: 350px;
     margin:auto;
 }
-.fcc-btn{
-    font-size: 14px;
+.botonContinuar{
+ 
+    font-size: 16px;
     border-bottom: 10px;
-    border-radius: 15px;
-    padding:7px; 
-    text-transform: uppercase;
-    margin-left: 18px;
-    background-color: silver;
-    color:white
-
+    border-radius: 20px;
+    padding: 15px;
+    background-color: red;
+    color:white;
+    offset-block-start: 10px;
+    text-align: center;
+    position: absolute;
+}
+.botonVolver{
+    font-size: 16px;
+    border-bottom: 10px;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: red;
+    color:white;
+    offset-block-start: 10px;
+    text-align: center;
+    position: relative;
+}
+.cuadroTexto1{
+    margin: 20px;
+    padding: 0px;
+    font-family:arial;
+    min-width: 300px;
+    max-width: 50px;
+    min: height 100px;
+    max-height:50px;
+}
+.img2{
+    image-orientation: inherit;
 }
 
 
